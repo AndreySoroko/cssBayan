@@ -18,7 +18,7 @@ body {
 
 h1 {
   font-size: 250%;
-  padding-bottom: 10px;
+  padding-bottom: 0.5em;
 }
 .accordion {
   transition: all 1s ease;
@@ -27,7 +27,7 @@ h1 {
 .list-item {
   display: flex;
   flex-direction: column;
-  border-top: dotted 2px gray;
+  border-top: dotted 0.15em gray;
   
 }
 
@@ -120,6 +120,7 @@ span {
     color: black;
   }
 }
+
 @keyframes click-effect-picture {
   0% {
     opacity: 1;
@@ -135,15 +136,10 @@ span {
   }
 }
 
-  .logo-image {
-    width: 50px;
-  }
-
-
 @media screen and (max-width: 900px) {
   h1 {
     font-size: 200%;
-    padding-bottom: 10px;
+    padding-bottom: 0.3em;
   }
   
   .label {
@@ -158,7 +154,7 @@ span {
 @media screen and (max-width: 630px) {
   h1 {
     font-size: 150%;
-    padding-bottom: 5px;
+    padding-bottom: 0.2em;
   }
   
   .label {
@@ -174,7 +170,7 @@ span {
 @media screen and (max-width: 390px) {
   h1 {
     font-size: 125%;
-    padding-bottom: 5px;
+    padding-bottom: 0.2em;
   }
   
   .label {
